@@ -33,20 +33,13 @@ body {
     background: #E1E1E1;
 
 }
-.lado3{
+.logo{
     width: 109px;
     height: 95px;
-    position: relative;
-    top: 20px;
+    position: absolute;
+
 }
 
-imag{
-    position: absolute;
-    width: 326px;
-    height: 426px;
-    left: 351px;
-    top: 221px
-}
 
 h1 {
     color: #FFFFFF;
