@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #383838;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.principal {
+    width: 760px;
+    margin: 0 auto;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.lado2 {
+    padding-left: 30px;
+}
+
+.lado1 {
+    box-shadow: 0px 0px 10px 5px #090909;
+    border-radius: 10px;
+    background: #E1E1E1;
+
+}
+.logo{
+    width: 109px;
+    height: 95px;
+    position: absolute;
+
+}
+
+
+h1 {
+    color: #FFFFFF;
+}
+
+#vermelho {
+    color: #CE171F;
+}
+
+p {
+    color: #FFFF;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+   
+
+}
+#POST-name{
+    width: 80%;
+    height: 21px;
+    border-radius: 10px;
+    
+}
+
+
+footer {
+    margin-top: 40px;
+}
