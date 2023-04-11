@@ -1,11 +1,15 @@
-*{
-    padding: 0;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: #383838;
+    color: #CAB9B9;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -15,60 +19,45 @@ body {
 }
 
 .principal {
-    width: 760px;
-    margin: 0 auto;
+    width: 681px;
+
 }
 
 .conteudo {
     display: flex;
 }
 
-.lado2 {
+#movieInfos {
     padding-left: 30px;
 }
 
-.lado1 {
-    box-shadow: 0px 0px 10px 5px #090909;
-    border-radius: 10px;
-    background: #E1E1E1;
-
-}
-.logo{
-    width: 109px;
-    height: 95px;
-    position: absolute;
-
+#movieTitle {
+    color: #fff;
+    font-size: 38px;
 }
 
-
-h1 {
-    color: #FFFFFF;
+#movieDescription {
+    font-size: 18px;
+    margin: 30px 0;
+}
+#moviePlot {
+    font-size: 18px;
 }
 
-#vermelho {
+#movieGenre {
+    margin: 0 20px;
+}
+
+.vermelho {
     color: #CE171F;
 }
 
-p {
-    color: #FFFF;
-}
-
-form {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-    padding: 10px;
-   
-
-}
-#POST-name{
-    width: 80%;
-    height: 21px;
-    border-radius: 10px;
-    
-}
-
-
 footer {
+    text-align: center;
     margin-top: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #CE171F
 }

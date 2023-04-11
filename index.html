@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -12,19 +12,20 @@
 <body>
 
     <div class="principal">
-        <form action="">
-            <input id="pesquisa" type="text" name="name" value="Informe o nome do filme">
-            <input id="procuraB"type="submit" value="Pesquisar">
+        <form action="" id="movieForm">
+            <input id="title" type="text" name="name" value="Informe o nome do filme">
+            <input type="submit" value="Pesquisar">
         </form>
 
         <div class="conteudo">
-            <img id="capa" class="lado1" src="imagem/Top_Gun_Maverick.jpg" alt="Imagem Principal">
-            <img class="logo" src="imagem/lopo_ifpi_picos.png" alt="fato da logo do IFPI de Picos">
 
-            <div class="lado2">
-                <h1 id="titulo">Top Gun: Maverick</h1>
-                <p><span class="vermelho"> 2022</span> ação e drama <span class="vermelho"> 130MIN</span> </p>
-                <p id="descricao">
+            <img id="capa" src="https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg" alt="Imagem Principal">
+            <!--<img class="logo" src="imagem/lopo_ifpi_picos.png" alt="fato da logo do IFPI de Picos">-->
+
+            <div class="movieInfos">
+                <h1 id="movieTitulo">Top Gun: Maverick</h1>
+                <p id="movieDescription" ><span class="vermelho" id="movieYear"> 2022</span><span id="movieGenre"> Ação e drama</span><span class="vermelho" id="movieRuntime">130 MIN</span></p>
+                <p id="moviePlot">
 
                     Depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha,
                     Pete "Maverick" Mitchell está de volta, rompendo os limites como um piloto de testes
@@ -34,7 +35,9 @@
             </div>
         </div>
 
-        <footer>Desenvolvido por Kedna R.L </footer>
+        <footer>
+            Desenvolvido por: <a href="https://github.com/kednaleal"> Kedna R.L</a> 
+        </footer>
         <script src="script.js"></script>
     </div>
 
