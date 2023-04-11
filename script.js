@@ -1,3 +1,7 @@
+form = document.getElementById('movieForm')
+title = document.getElementById('title')
+
+
 function getNewFilmes(titulo) {
     const url = `https://www.omdbapi.com/?t=${titulo}pikey=790af7bcz`
     fetch(url) // acessando a rota
@@ -16,9 +20,9 @@ function getNewFilmes(titulo) {
         console.log(data)
 }
 
-movieForm.addEventLisenter('submit', function(e) {
+movieForm.addEventListener('submit', function(e) {
+    
     getMovieInfos(title.value)
     e.preventDefault();
 });
-
-getNewFilmes()
+// getNewFilmes()
